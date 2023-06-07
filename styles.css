@@ -1,0 +1,141 @@
+/*-------------------- Main-Items -----------------*/
+
+body{
+    font-family: "poppins";
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    line-height: 1.5;
+}
+p{
+    color: #8f8f8f;
+}
+.container-fluid{
+    padding: 5% 6%;
+}
+.center-keeping{
+    padding: 5% 15%;
+}
+
+
+/*---------------- Heading section --------------*/
+
+.heading{
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    padding-top: 10%;
+    text-align: left;
+}
+.section-heading{
+    font-size: 3rem;
+}
+
+
+/* -----------------Sections ------------------*/
+.colored-section{
+    background-color: #ca222d;
+    color: white;
+}
+.white-section{
+    background-color: #ffffff;
+}
+
+/*------------------- Title Section -----------*/
+
+
+
+.title-img{
+    width: 20%;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 15%;
+    padding-top: 75px;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-family: "ubuntu";
+    font-weight: bold;
+}
+.navbar-item{
+    padding: 0 10px;
+    font-size: larger;
+}
+.download-button{
+    margin: 4rem 1.5rem 2rem;
+}
+@media (max-width: 992px){
+    .heading{
+        text-align: center;
+    }
+    .title-img{
+        transform: rotate(0deg);
+        position: static;
+        width: 20rem;
+    }
+}
+
+
+/*----------------- Features Section ----------------*/
+
+.features-icon{
+    color: #221f1f; 
+    margin-bottom: 1rem;
+}
+.features-icon:hover{
+    color: #e21221;
+}
+#features{
+    position: relative;
+}
+
+
+/*---------------- Testimonials Section -------------*/
+
+#testimonials{
+    background-color: #a84040;
+}
+.testimonial-img{
+    width: 7rem;
+    border-radius: 100%;
+    padding-right: 1rem;
+}
+.testimonial-text{
+    font-size: 3rem;
+}
+
+
+/*-------------------Press Section -----------------*/
+
+#press{
+    background-color: #a84040;
+}
+.press-img{
+    width: 20rem;
+    padding: 3% 2%;
+}
+
+
+/* Pricing Section */
+
+.pricing-column{
+    padding: 4rem 3rem;
+}
+.price-plan{
+    font-size: 3rem;
+}
+
+
+/* Call To Action Section */
+
+.cta-text{
+    font-size: 3.5rem;
+}
+
+
+/* Footer Section */
+
+.social-icons{
+    margin: 10px;
+}
